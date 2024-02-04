@@ -1,0 +1,51 @@
+Simple Blog Website:-
+This is a basic blog website that allows users to read and write posts. The project is implemented using HTML, CSS, Node.js, and MongoDB for data storage.
+
+Project Structure:-
+|blog
+    |node_modules
+    |public
+        |styles
+            |style.css
+    |views
+        |index.ejs
+        |post.ejs
+    |app.js
+    |package.json
+
+Dependencies:-
+-Express:- Web application framework for Node.js.
+-Mongoose:- MongoDB object modeling for Node.js.
+-EJS:- Embedded JavaScript templates for rendering dynamic content.
+-Body-parser:- Parse incoming request bodies in a middleware.
+
+Setup:-
+Clone the repository:
+  git clone https://github.com/Aryan-Singh1011/blog.git
+
+Navigate to the project directory:
+ cd PRO1
+
+Install dependencies:
+ npm install
+
+Start the application:
+ -node app.js
+ -The server will be running at http://localhost:3000.
+
+
+Usage:-
+ -Access the home page at http://localhost:3000.
+ -Read existing posts and click on the links to view individual posts.
+ -Create a new post by clicking on the "Create a New Post" link.
+
+
+Project Customization:-
+ Feel free to customize the project based on your needs:
+  -Enhance the UI and styles in public/styles/style.css.
+  -Add more features such as user authentication, input validation, and error handling in app.js.
+  -Expand the MongoDB schema to include additional information for each post.
+
+
+Contributing:-
+ If you have suggestions or find issues, please feel free to open an issue or submit a pull request.
